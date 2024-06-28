@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../Assets/fondo.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 350px;
+}
+
+form h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.inputGroup {
+    margin-bottom: 15px;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.checkboxGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkboxGroup input {
+    margin-right: 5px;
+}
+
+.buttonLogin {
+    width: 100%;
+    padding: 10px;
+    background-color: olivedrab;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonLogin:hover {
+    background-color: darkgreen;
+}
